@@ -109,7 +109,44 @@
       "fa":"video", 
       "fab":false, 
       "color":"#f44242"
+    },
+    {
+      "id":13,
+      "isActive":false, 
+      "url":"https://trello.com", 
+      "name":"Trello", 
+      "fa":"trello", 
+      "fab":true, 
+      "color":"#5d90e2"
+    },
+    {
+      "id":14,
+      "isActive":false, 
+      "url":"https://joinjoaomgcd.appspot.com/", 
+      "name":"Join", 
+      "fa":"comments", 
+      "fab":false, 
+      "color":"#edb431"
+    },
+    {
+      "id":15,
+      "isActive":false, 
+      "url":"https://github.com/", 
+      "name":"Github", 
+      "fa":"github", 
+      "fab":true, 
+      "color":"#182320"
+    },
+    {
+      "id":16,
+      "isActive":false, 
+      "url":"https://my.jdownloader.org/index.html", 
+      "name":"JDownloader", 
+      "fa":"download", 
+      "fab":false, 
+      "color":"#eaff2d"
     }
+  
   ] 
 }
   
