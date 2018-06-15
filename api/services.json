@@ -1,4 +1,42 @@
 {
+  "filters_fr":[
+    {
+      "name": "Réseaux Sociaux",
+      "fab": true,
+      "fa": "facebook",
+      "filter": "social"
+    },
+    {
+      "name": "Music",
+      "fab": false,
+      "fa": "music",
+      "filter": "music"
+    },
+    {
+      "name": "Mails",
+      "fab": false,
+      "fa": "envelope",
+      "filter": "mails" 
+    },
+    {
+      "name": "Travail",
+      "fab": false,
+      "fa": "briefcase",
+      "filter": "work" 
+    },
+    {
+      "name": "Developpement",
+      "fab": false,
+      "fa": "code",
+      "filter": "dev" 
+    },
+    {
+      "name": "Utilitaires",
+      "fab": false,
+      "fa": "folder",
+      "filter": "other" 
+    },
+  ],
   "services":[
     {
       "id":1,
@@ -7,7 +45,8 @@
       "name":"Youtube", 
       "fa":"youtube", 
       "fab":true, 
-      "color":"#e02c3b"
+      "color":"#e02c3b",
+      "filter":"social"
     },
     {
       "id":2,
@@ -17,7 +56,8 @@
       "fa":"discord", 
       "fab":true, 
       "color":"#3e4a56",
-      "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.250 Discord/5.0.0-beta.18 Chrome/59.0.3071.115 Discord/1.8.4 Safari/537.36"
+      "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.250 Discord/5.0.0-beta.18 Chrome/59.0.3071.115 Discord/1.8.4 Safari/537.36",
+      "filter":"social"
     },
     {
       "id":3,
@@ -26,7 +66,8 @@
       "name":"Google Doc", 
       "fa":"file-alt", 
       "fab":false, 
-      "color":"#1262e2"
+      "color":"#1262e2",
+      "filter":"work"
     },
     {
       "id":4,
@@ -35,7 +76,8 @@
       "name":"Twitter", 
       "fa":"twitter",
       "fab":true, 
-      "color":"#cee1ff"
+      "color":"#cee1ff",
+      "filter":"social"
     },
     {
       "id":5,
@@ -44,7 +86,8 @@
       "name":"Outlook", 
       "fa":"windows", 
       "fab":true, 
-      "color":"#e59834"
+      "color":"#e59834",
+      "filter":"mails"
     },
     {
       "id":6,
@@ -53,7 +96,8 @@
       "name":"Pocket", 
       "fa":"book", 
       "fab":false, 
-      "color":"#e54234"
+      "color":"#e54234",
+      "filter":"work"
     },
     {
       "id":7,
@@ -62,7 +106,8 @@
       "name":"Word", 
       "fa":"file", 
       "fab":false, 
-      "color":"#e54234"
+      "color":"#e54234",
+      "filter":"work"
     },
     {
       "id":8,
@@ -72,7 +117,8 @@
       "fa":"skype", 
       "fab":true, 
       "color":"#5d95fc",
-      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36"
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36",
+      "filter":"social"
     },
     {
       "id":9,
@@ -81,7 +127,8 @@
       "name":"Spotify", 
       "fa":"spotify", 
       "fab":true, 
-      "color":"#26c96c"
+      "color":"#26c96c",
+      "filter":"music"
     },
     {
       "id":10,
@@ -90,7 +137,8 @@
       "name":"Deezer", 
       "fa":"music", 
       "fab":false, 
-      "color":"#262c33"
+      "color":"#262c33",
+      "filter":"music"
     },
     {
       "id":11,
@@ -99,7 +147,8 @@
       "name":"Facebook", 
       "fa":"facebook", 
       "fab":true, 
-      "color":"#4195f4"
+      "color":"#4195f4",
+      "filter":"social"
     },
     {
       "id":12,
@@ -108,7 +157,8 @@
       "name":"Netflix", 
       "fa":"video", 
       "fab":false, 
-      "color":"#f44242"
+      "color":"#f44242",
+      "filter":"social"
     },
     {
       "id":13,
@@ -117,7 +167,8 @@
       "name":"Trello", 
       "fa":"trello", 
       "fab":true, 
-      "color":"#5d90e2"
+      "color":"#5d90e2",
+      "filter":"dev"
     },
     {
       "id":14,
@@ -126,7 +177,8 @@
       "name":"Join", 
       "fa":"comments", 
       "fab":false, 
-      "color":"#edb431"
+      "color":"#edb431",
+      "filter":"other"
     },
     {
       "id":15,
@@ -135,7 +187,8 @@
       "name":"Github", 
       "fa":"github", 
       "fab":true, 
-      "color":"#182320"
+      "color":"#182320",
+      "filter":"dev"
     },
     {
       "id":16,
@@ -144,7 +197,8 @@
       "name":"JDownloader", 
       "fa":"download", 
       "fab":false, 
-      "color":"#eaff2d"
+      "color":"#eaff2d",
+      "filter":"other"
     }
   
   ] 
