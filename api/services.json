@@ -205,9 +205,9 @@
       "isActive":false, 
       "url":"https://messenger.com", 
       "name":"Messenger", 
-      "fa":"messenger", 
+      "fa":"facebook-messenger", 
       "fab":true, 
-      "color":"#eaff2d",
+      "color":"#124391",
       "filter":"social"
     }
   
