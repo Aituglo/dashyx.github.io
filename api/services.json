@@ -216,7 +216,7 @@
       "url":"https://www.evernote.com/Home.action", 
       "name":"Evernote", 
       "fa":"sticky-note", 
-      "fab":true, 
+      "fab":false, 
       "color":"#2aba5a",
       "filter":"work"
     }
