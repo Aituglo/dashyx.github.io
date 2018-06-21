@@ -209,8 +209,17 @@
       "fab":true, 
       "color":"#124391",
       "filter":"social"
+    },
+    {
+      "id":18,
+      "isActive":false, 
+      "url":"https://www.evernote.com/Home.action", 
+      "name":"Evernote", 
+      "fa":"sticky-note", 
+      "fab":true, 
+      "color":"#2aba5a",
+      "filter":"work"
     }
-  
   ] 
 }
   
