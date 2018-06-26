@@ -151,7 +151,7 @@ lang: fr
                 {% for service in site.data.services.services %}
           
                   <li class="port-item mix {{service.filter}}">
-                      <p class="text-center"><button type="button" class="btn btn-default btn-circle btn-lg " style="color:white; background-color: {{service.color}};"><i class="{% if service.fab %}fab fa-{{service.fa}}{% else %}fa fa-{{service.fa}}{% endif %}"></i></button></p>
+                      <p class="text-center"><button type="button" class="btn btn-default btn-circle btn-lg " style="color:white; background-color: {{service.color}};"><img src="/images/img-services/{{service.slug}}.svg"></button></p>
                       <p style="color:black" class="text-center">{{service.name}}</p>
                   </li>
                 {% endfor %}
