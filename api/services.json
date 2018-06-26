@@ -43,9 +43,8 @@
       "isActive":false, 
       "url":"https://youtube.com", 
       "name":"Youtube", 
-      "fa":"youtube", 
-      "fab":true, 
-      "color":"#e02c3b",
+      "slug":"youtube", 
+      "color": "#FF0000",
       "filter":"social"
     },
     {
@@ -53,9 +52,8 @@
       "isActive":false, 
       "url":"https://discordapp.com/login", 
       "name":"Discord", 
-      "fa":"discord", 
-      "fab":true, 
-      "color":"#3e4a56",
+      "slug":"discord", 
+      "color":"#7289DA",
       "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.250 Discord/5.0.0-beta.18 Chrome/59.0.3071.115 Discord/1.8.4 Safari/537.36",
       "filter":"social"
     },
@@ -64,8 +62,7 @@
       "isActive":false,
       "url":"https://docs.google.com/document/u/0/", 
       "name":"Google Doc", 
-      "fa":"file-alt", 
-      "fab":false, 
+      "slug":"gdoc", 
       "color":"#1262e2",
       "filter":"work"
     },
@@ -74,9 +71,8 @@
       "isActive":false, 
       "url":"https://twitter.com/", 
       "name":"Twitter", 
-      "fa":"twitter",
-      "fab":true, 
-      "color":"#cee1ff",
+      "slug":"twitter",
+      "color":"#1DA1F2",
       "filter":"social"
     },
     {
@@ -84,9 +80,8 @@
       "isActive":false, 
       "url":"https://outlook.live.com/mail/inbox", 
       "name":"Outlook", 
-      "fa":"windows", 
-      "fab":true, 
-      "color":"#e59834",
+      "slug":"outlook", 
+      "color":"#0073C7",
       "filter":"mails"
     },
     {
@@ -94,19 +89,17 @@
       "isActive":false, 
       "url":"https://getpocket.com/", 
       "name":"Pocket", 
-      "fa":"book", 
-      "fab":false, 
-      "color":"#e54234",
+      "slug":"pocket", 
+      "color":"#EF4056",
       "filter":"work"
     },
     {
       "id":7,
       "isActive":false, 
-      "url":"https://office.live.com/start/Word.aspx", 
-      "name":"Word", 
-      "fa":"file", 
-      "fab":false, 
-      "color":"#e54234",
+      "url":"https://office.live.com", 
+      "name":"Office 365", 
+      "slug":"office365", 
+      "color":"#EB3D01",
       "filter":"work"
     },
     {
@@ -114,9 +107,8 @@
       "isActive":false, 
       "url":"https://web.skype.com", 
       "name":"Skype", 
-      "fa":"skype", 
-      "fab":true, 
-      "color":"#5d95fc",
+      "slug":"skype",  
+      "color":"#B9E7F7",
       "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36",
       "filter":"social"
     },
@@ -125,9 +117,8 @@
       "isActive":false, 
       "url":"https://open.spotify.com/", 
       "name":"Spotify", 
-      "fa":"spotify", 
-      "fab":true, 
-      "color":"#26c96c",
+      "slug":"spotify", 
+      "color":"#1ED760",
       "filter":"music"
     },
     {
@@ -135,9 +126,8 @@
       "isActive":false, 
       "url":"https://www.deezer.com/login", 
       "name":"Deezer", 
-      "fa":"music", 
-      "fab":false, 
-      "color":"#262c33",
+      "slug":"deezer", 
+      "color":"#000000",
       "filter":"music"
     },
     {
@@ -145,9 +135,8 @@
       "isActive":false, 
       "url":"https://facebook.com", 
       "name":"Facebook", 
-      "fa":"facebook", 
-      "fab":true, 
-      "color":"#4195f4",
+      "slug":"facebook", 
+      "color":"#3B579D",
       "filter":"social"
     },
     {
@@ -155,9 +144,8 @@
       "isActive":false, 
       "url":"https://netflix.com", 
       "name":"Netflix", 
-      "fa":"video", 
-      "fab":false, 
-      "color":"#f44242",
+      "slug":"netflix", 
+      "color":"#DC0405",
       "filter":"social"
     },
     {
@@ -165,9 +153,8 @@
       "isActive":false, 
       "url":"https://trello.com", 
       "name":"Trello", 
-      "fa":"trello", 
-      "fab":true, 
-      "color":"#5d90e2",
+      "slug":"trello", 
+      "color":"#007EC8",
       "filter":"dev"
     },
     {
@@ -175,9 +162,8 @@
       "isActive":false, 
       "url":"https://joinjoaomgcd.appspot.com/", 
       "name":"Join", 
-      "fa":"comments", 
-      "fab":false, 
-      "color":"#edb431",
+      "slug":"join", 
+      "color":"#EF8E25",
       "filter":"other"
     },
     {
@@ -185,9 +171,8 @@
       "isActive":false, 
       "url":"https://github.com/", 
       "name":"Github", 
-      "fa":"github", 
-      "fab":true, 
-      "color":"#182320",
+      "slug":"github", 
+      "color":"#000000",
       "filter":"dev"
     },
     {
@@ -195,9 +180,8 @@
       "isActive":false, 
       "url":"https://my.jdownloader.org/index.html", 
       "name":"JDownloader", 
-      "fa":"download", 
-      "fab":false, 
-      "color":"#eaff2d",
+      "slug":"jdownloader", 
+      "color":"#F2D92B",
       "filter":"other"
     },
     {
@@ -205,9 +189,8 @@
       "isActive":false, 
       "url":"https://messenger.com", 
       "name":"Messenger", 
-      "fa":"facebook-messenger", 
-      "fab":true, 
-      "color":"#124391",
+      "slug":"messenger", 
+      "color":"#448AFE",
       "filter":"social"
     },
     {
@@ -215,9 +198,8 @@
       "isActive":false, 
       "url":"https://www.evernote.com/Home.action", 
       "name":"Evernote", 
-      "fa":"sticky-note", 
-      "fab":false, 
-      "color":"#2aba5a",
+      "slug":"evernote", 
+      "color":"#3BCC64",
       "filter":"work"
     }
   ] 
