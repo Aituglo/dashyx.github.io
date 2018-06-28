@@ -31,6 +31,12 @@
       "filter": "dev" 
     },
     {
+      "name": "Stockage",
+      "fab": false,
+      "fa": "hdd",
+      "filter": "storage" 
+    },
+    {
       "name": "Utilitaires",
       "fab": false,
       "fa": "folder",
@@ -39,7 +45,6 @@
   ],
   "services":[
     {
-      "id":1,
       "isActive":false, 
       "url":"https://youtube.com", 
       "name":"Youtube", 
@@ -48,7 +53,6 @@
       "filter":"social"
     },
     {
-      "id":2,
       "isActive":false, 
       "url":"https://discordapp.com/login", 
       "name":"Discord", 
@@ -58,7 +62,6 @@
       "filter":"social"
     },
     {
-      "id":3,
       "isActive":false,
       "url":"https://docs.google.com/document/u/0/", 
       "name":"Google Doc", 
@@ -67,7 +70,6 @@
       "filter":"work"
     },
     {
-      "id":4,
       "isActive":false, 
       "url":"https://twitter.com/", 
       "name":"Twitter", 
@@ -76,7 +78,6 @@
       "filter":"social"
     },
     {
-      "id":5,
       "isActive":false, 
       "url":"https://outlook.live.com/mail/inbox", 
       "name":"Outlook", 
@@ -85,7 +86,6 @@
       "filter":"mails"
     },
     {
-      "id":6,
       "isActive":false, 
       "url":"https://getpocket.com/", 
       "name":"Pocket", 
@@ -94,7 +94,6 @@
       "filter":"work"
     },
     {
-      "id":7,
       "isActive":false, 
       "url":"https://office.live.com", 
       "name":"Office 365", 
@@ -103,7 +102,6 @@
       "filter":"work"
     },
     {
-      "id":8,
       "isActive":false, 
       "url":"https://web.skype.com", 
       "name":"Skype", 
@@ -113,7 +111,6 @@
       "filter":"social"
     },
     {
-      "id":9,
       "isActive":false, 
       "url":"https://open.spotify.com/", 
       "name":"Spotify", 
@@ -122,7 +119,6 @@
       "filter":"music"
     },
     {
-      "id":10,
       "isActive":false, 
       "url":"https://www.deezer.com/login", 
       "name":"Deezer", 
@@ -131,7 +127,6 @@
       "filter":"music"
     },
     {
-      "id":11,
       "isActive":false, 
       "url":"https://facebook.com", 
       "name":"Facebook", 
@@ -140,7 +135,6 @@
       "filter":"social"
     },
     {
-      "id":12,
       "isActive":false, 
       "url":"https://netflix.com", 
       "name":"Netflix", 
@@ -149,7 +143,6 @@
       "filter":"social"
     },
     {
-      "id":13,
       "isActive":false, 
       "url":"https://trello.com", 
       "name":"Trello", 
@@ -158,7 +151,6 @@
       "filter":"dev"
     },
     {
-      "id":14,
       "isActive":false, 
       "url":"https://joinjoaomgcd.appspot.com/", 
       "name":"Join", 
@@ -167,7 +159,6 @@
       "filter":"other"
     },
     {
-      "id":15,
       "isActive":false, 
       "url":"https://github.com/", 
       "name":"Github", 
@@ -176,7 +167,6 @@
       "filter":"dev"
     },
     {
-      "id":16,
       "isActive":false, 
       "url":"https://my.jdownloader.org/index.html", 
       "name":"JDownloader", 
@@ -185,7 +175,6 @@
       "filter":"other"
     },
     {
-      "id":17,
       "isActive":false, 
       "url":"https://messenger.com", 
       "name":"Messenger", 
@@ -194,13 +183,492 @@
       "filter":"social"
     },
     {
-      "id":18,
       "isActive":false, 
       "url":"https://www.evernote.com/Home.action", 
       "name":"Evernote", 
       "slug":"evernote", 
       "color":"#3BCC64",
       "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://my.1password.com/signin", 
+      "name":"1Password", 
+      "slug":"1password", 
+      "color":"#2979FF",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.amazon.com/", 
+      "name":"Amazon", 
+      "slug":"amazon", 
+      "color":"#F59932",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://app.asana.com/-/login", 
+      "name":"Asana", 
+      "slug":"asana", 
+      "color":"#F95D8E",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0", 
+      "name":"AWS Amazon", 
+      "slug":"aws", 
+      "color":"#F59932",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://bitbucket.org/account/signin/", 
+      "name":"Bitbucket", 
+      "slug":"bitbucket", 
+      "color":"#2684FF",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://circleci.com/vcs-authorize/", 
+      "name":"Circle Ci", 
+      "slug":"circleci", 
+      "color":"#343434",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.cloudflare.com/", 
+      "name":"CloudFlare", 
+      "slug":"cloudflare", 
+      "color":"#F48120",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://codecov.io/", 
+      "name":"Codecov", 
+      "slug":"codecov", 
+      "color":"#FC2B6A",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.dropbox.com/login", 
+      "name":"DropBox", 
+      "slug":"dropbox", 
+      "color":"#007EE5",
+      "filter":"storage"
+    },
+    {
+      "isActive":false, 
+      "url":"https://feedly.com/i/welcome", 
+      "name":"Feedly", 
+      "slug":"feedly", 
+      "color":"#0F8C0A",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://console.firebase.google.com/?pli=1", 
+      "name":"Firebase", 
+      "slug":"firebase", 
+      "color":"#FFCB2D",
+      "filter":"work dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://calendar.google.com/calendar/r", 
+      "name":"Google Calendar", 
+      "slug":"google-calendar", 
+      "color":"#4686F2",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://drive.google.com/drive/", 
+      "name":"Google Drive", 
+      "slug":"google-drive", 
+      "color":"#FFD344",
+      "filter":"work storage"
+    },
+    {
+      "isActive":false, 
+      "url":"https://gitlab.com/users/sign_in", 
+      "name":"Gitlab", 
+      "slug":"gitlab", 
+      "color":"#FD6D26",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://gitter.im/", 
+      "name":"Gitter", 
+      "slug":"gitter", 
+      "color":"#F20861",
+      "filter":"dev social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://mail.google.com/mail/u/0/#inbox", 
+      "name":"Gmail", 
+      "slug":"gmail", 
+      "color":"#AC3D31",
+      "filter":"work mails"
+    },
+    {
+      "isActive":false, 
+      "url":"https://analytics.google.com/analytics/web/", 
+      "name":"Google Analytics", 
+      "slug":"google-analytics", 
+      "color":"#FEC30D",
+      "filter":"work dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://cloud.google.com/", 
+      "name":"Google Cloud", 
+      "slug":"google-cloud", 
+      "color":"#4285F4",
+      "filter":"work dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://contacts.google.com/", 
+      "name":"Google Contact", 
+      "slug":"google-contact", 
+      "color":"#4285F4",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://hangouts.google.com/webchat/start", 
+      "name":"Hangouts", 
+      "slug":"google-hangouts", 
+      "color":"#5CB245",
+      "filter":"social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://inbox.google.com/", 
+      "name":"Inbox", 
+      "slug":"google-inbox", 
+      "color":"#3561C3",
+      "filter":"mails"
+    },
+    {
+      "isActive":false, 
+      "url":"https://keep.google.com/", 
+      "name":"Google Keep", 
+      "slug":"google-keep", 
+      "color":"#F4B400",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.google.com/maps", 
+      "name":"Google Maps", 
+      "slug":"google-maps", 
+      "color":"#1FA463",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://photos.google.com/", 
+      "name":"Google Photos", 
+      "slug":"google-photos", 
+      "color":"#4485FB",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://translate.google.com/", 
+      "name":"Google Translate", 
+      "slug":"google-translate", 
+      "color":"#4485FB",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://habitica.com/login", 
+      "name":"Habitica", 
+      "slug":"habitica", 
+      "color":"#4C327A",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://id.heroku.com/login", 
+      "name":"Heroku", 
+      "slug":"heroku", 
+      "color":"#591FB2",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.icloud.com/", 
+      "name":"ICloud", 
+      "slug":"icloud", 
+      "color":"#44B4FE",
+      "filter":"storage"
+    },
+    {
+      "isActive":false, 
+      "url":"https://ifttt.com/login", 
+      "name":"IFTT", 
+      "slug":"iftt", 
+      "color":"#0099FF",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.instagram.com/", 
+      "name":"Instagram", 
+      "slug":"instagram", 
+      "color":"#AE3596",
+      "filter":"social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.kaggle.com/", 
+      "name":"Kaggle", 
+      "slug":"kaggle", 
+      "color":"#37BAE8",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.linkedin.com/", 
+      "name":"LinkedIn", 
+      "slug":"linkedIn", 
+      "color":"#0077B5",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://medium.com/", 
+      "name":"Medium", 
+      "slug":"medium", 
+      "color":"#12100E",
+      "filter":"work other social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://meet.google.com/_meet", 
+      "name":"Meet", 
+      "slug":"meet", 
+      "color":"#118F83",
+      "filter":"social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://app.netlify.com/", 
+      "name":"Netlify", 
+      "slug":"netlify", 
+      "color":"#12100E",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://onedrive.live.com/about/auth/", 
+      "name":"OneDrive", 
+      "slug":"onedrive", 
+      "color":"#2350A2",
+      "filter":"storage"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.onenote.com/hrd", 
+      "name":"OneNote", 
+      "slug":"onenote", 
+      "color":"#793474",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.paypal.com/signin", 
+      "name":"Paypal", 
+      "slug":"paypal", 
+      "color":"#00335E",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://powerbi.microsoft.com/fr-fr/", 
+      "name":"PowerBI", 
+      "slug":"powerbi", 
+      "color":"#EDBD11",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.producthunt.com/", 
+      "name":"Product Hunt", 
+      "slug":"producthunt", 
+      "color":"#D35C38",
+      "filter":"other social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://reddit.com", 
+      "name":"Reddit", 
+      "slug":"reddit", 
+      "color":"#FF4500",
+      "filter":"other social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://slack.com/", 
+      "name":"Slack", 
+      "slug":"slack", 
+      "color":"#6EC9DC",
+      "filter":"dev social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://app.status.io/login", 
+      "name":"Status.io", 
+      "slug":"statusio", 
+      "color":"#51D466",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://account.synology.com/en-us", 
+      "name":"Synology", 
+      "slug":"synology", 
+      "color":"#000000",
+      "filter":"storage"
+    },
+    {
+      "isActive":false, 
+      "url":"https://web.telegram.org/#/login", 
+      "name":"Telegram", 
+      "slug":"telegram", 
+      "color":"#33ABDF",
+      "filter":"social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://travis-ci.com/", 
+      "name":"Travis", 
+      "slug":"travis", 
+      "color":"#E5D867",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://tweetdeck.twitter.com/", 
+      "name":"TweetDeck", 
+      "slug":"tweetdeck", 
+      "color":"#A1D2FB",
+      "filter":"social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://wetransfer.com/sign-in", 
+      "name":"WeTranfer", 
+      "slug":"wetransfer", 
+      "color":"#000000",
+      "filter":"storage"
+    },
+    {
+      "isActive":false, 
+      "url":"https://web.whatsapp.com/", 
+      "name":"WhatsApp", 
+      "slug":"whatsapp", 
+      "color":"#2AB200",
+      "filter":"social"
+    },
+    {
+      "isActive":false, 
+      "url":"https://wordpress.com/log-in", 
+      "name":"Wordpress", 
+      "slug":"wordpress", 
+      "color":"#21759A",
+      "filter":"work dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.wrike.com/login/", 
+      "name":"Wrike", 
+      "slug":"wrike", 
+      "color":"#00A951",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.wunderlist.com/login?redirect_url=/webapp", 
+      "name":"Wunderlist", 
+      "slug":"wunderlist", 
+      "color":"#E74127",
+      "filter":"work"
+    },
+    {
+      "isActive":false, 
+      "url":"https://overview.mail.yahoo.com/", 
+      "name":"Yahoo Mail", 
+      "slug":"yahoo-email", 
+      "color":"#621DD0",
+      "filter":"mails"
+    },
+    {
+      "isActive":false, 
+      "url":"https://app.dashlane.com/", 
+      "name":"Dashlane", 
+      "slug":"dashlane", 
+      "color":"#004C5C",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://google.com/", 
+      "name":"Google", 
+      "slug":"google", 
+      "color":"#4285F4",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://codeanywhere.com/login", 
+      "name":"CodeAnywhere", 
+      "slug":"codeanywhere", 
+      "color":"#723887",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://c9.io/login", 
+      "name":"Cloud9", 
+      "slug":"c9", 
+      "color":"#2C91DE",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.qwant.com", 
+      "name":"Qwant", 
+      "slug":"qwant", 
+      "color":"#0E799A",
+      "filter":"other"
+    },
+    {
+      "isActive":false, 
+      "url":"https://cloud.digitalocean.com/login", 
+      "name":"Digital Ocean", 
+      "slug":"digital-ocean", 
+      "color":"#0069FF",
+      "filter":"dev"
+    },
+    {
+      "isActive":false, 
+      "url":"https://www.ovh.com/manager", 
+      "name":"OVH", 
+      "slug":"ovh", 
+      "color":"#14406B",
+      "filter":"dev"
     }
   ] 
 }
