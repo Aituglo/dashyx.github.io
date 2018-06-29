@@ -3,8 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<g opacity="0">
-	<path fill="#FFA719" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0z"/>
+<g>
+	<path opacity="0" fill="#FFA719" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4
+		C0,1.791,1.791,0,4,0z"/>
 	<path fill="#F2F2F2" d="M24.998,28.209L24.998,28.209l-6.669-6.46L10,30.029V12.415C10,11.081,11.081,10,12.415,10h25.17
 		C38.919,10,40,11.081,40,12.415v0.858L24.998,28.209z M18.331,28.496l6.667,6.588L40,20.148v17.437C40,38.919,38.919,40,37.585,40
 		h-25.17C11.081,40,10,38.919,10,37.585v-0.776L18.331,28.496z"/>

@@ -417,8 +417,8 @@
     {
       "isActive":false, 
       "url":"https://ifttt.com/login", 
-      "name":"IFTT", 
-      "slug":"iftt", 
+      "name":"IFTTT", 
+      "slug":"ifttt", 
       "color":"#0099FF",
       "filter":"other"
     },

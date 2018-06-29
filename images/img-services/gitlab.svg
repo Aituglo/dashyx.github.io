@@ -3,17 +3,18 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<g opacity="0">
-	<path fill="#E24329" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0z"/>
+<g>
+	<path opacity="0" fill="#E24329" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4
+		C0,1.791,1.791,0,4,0z"/>
 	<g transform="rotate(180 19.98 19.48)">
 		<polygon fill="#FFFFFF" points="14.951,0.071 14.951,0.071 20.436,17.171 9.466,17.171 		"/>
 		<polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="14.952,0.071 9.467,17.171 1.78,17.171 		"/>
-		<path opacity="0.6" fill="#FFFFFF" enable-background="new    " d="M1.779,17.171L1.779,17.171l-1.667-5.197
-			c-0.152-0.474,0.015-0.993,0.412-1.286L14.951,0.071L1.779,17.171L1.779,17.171z"/>
+		<path opacity="0.6" fill="#FFFFFF" enable-background="new    " d="M1.778,17.171L1.778,17.171l-1.666-5.197
+			c-0.152-0.474,0.015-0.992,0.412-1.285L14.951,0.071L1.778,17.171L1.778,17.171z"/>
 		<path fill="#FFFFFF" d="M1.78,17.171h7.687L6.163,27.47c-0.17,0.53-0.91,0.53-1.08,0L1.78,17.171L1.78,17.171z"/>
 		<polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="14.951,0.071 20.436,17.171 28.123,17.171 		"/>
 		<path opacity="0.6" fill="#FFFFFF" enable-background="new    " d="M28.124,17.171L28.124,17.171l1.667-5.197
-			c0.152-0.474-0.015-0.993-0.413-1.286L14.952,0.071L28.124,17.171L28.124,17.171z"/>
+			c0.152-0.474-0.015-0.992-0.413-1.285L14.952,0.071L28.124,17.171L28.124,17.171z"/>
 		<path fill="#FFFFFF" d="M28.123,17.171h-7.687l3.303,10.299c0.17,0.53,0.91,0.53,1.08,0L28.123,17.171L28.123,17.171z"/>
 	</g>
 </g>

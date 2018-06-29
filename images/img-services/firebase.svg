@@ -5,19 +5,19 @@
 	 width="60px" height="60px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <title>Group 3</title>
 <desc>Created with Sketch.</desc>
-<g id="Page-1" opacity="0">
+<g id="Page-1">
 	<g id="Group-3">
-		<path id="Rectangle-path" fill="#FCC338" d="M4,0h52c2.209,0,4,1.791,4,4v52c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4
-			C0,1.791,1.791,0,4,0z"/>
+		<path id="Rectangle-path" opacity="0" fill="#FCC338" d="M4,0h52c2.209,0,4,1.791,4,4v52c0,2.209-1.791,4-4,4H4
+			c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0z"/>
 		<g id="firebase-1" transform="translate(15.000000, 10.000000)">
 			<g id="Group" transform="translate(0.000000, 0.000000)">
-				<path id="Shape" fill="#FFFFFF" fill-opacity="0.7" d="M0,32.983l0.248-0.347L11.95,10.433l0.024-0.235l-5.158-9.69
-					C6.383-0.304,5.167-0.099,5.025,0.81L0,32.983L0,32.983z"/>
-				<path id="Shape_1_" fill="#FFFFFF" fill-opacity="0.7" d="M19.485,13.468l-3.751-7.359c-0.365-0.694-1.384-0.697-1.745,0
-					l-2.053,3.915v0.333l3.797,6.898L19.485,13.468z"/>
-				<path id="Shape_2_" fill="#FFFFFF" d="M0,32.983l0.112-0.112l0.407-0.166l15.212-15.471l-3.784-7.082L0,32.983z"/>
-				<path id="Shape_3_" fill="#FFFFFF" fill-opacity="0.5" d="M29.767,32.949l-3.87-23.834c-0.121-0.746-1.035-1.041-1.57-0.506
-					L0,32.983l13.474,7.522c0.852,0.477,1.889,0.477,2.741,0.001L29.767,32.949z"/>
+				<path id="Shape" fill="#FFFFFF" fill-opacity="0.7" d="M0,32.982l0.248-0.347L11.95,10.433l0.024-0.235l-5.158-9.69
+					C6.383-0.304,5.167-0.099,5.025,0.81L0,32.982L0,32.982z"/>
+				<path id="Shape_1_" fill="#FFFFFF" fill-opacity="0.7" d="M19.484,13.468l-3.75-7.359c-0.365-0.694-1.384-0.697-1.746,0
+					l-2.053,3.915v0.333l3.796,6.898L19.484,13.468z"/>
+				<path id="Shape_2_" fill="#FFFFFF" d="M0,32.982l0.112-0.111l0.407-0.166L15.73,17.234l-3.784-7.082L0,32.982z"/>
+				<path id="Shape_3_" fill="#FFFFFF" fill-opacity="0.5" d="M29.768,32.949L25.896,9.115c-0.121-0.746-1.035-1.041-1.569-0.506
+					L0,32.982l13.474,7.522c0.852,0.478,1.889,0.478,2.741,0.001L29.768,32.949z"/>
 			</g>
 		</g>
 	</g>
