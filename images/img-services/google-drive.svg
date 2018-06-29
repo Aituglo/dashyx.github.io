@@ -2,26 +2,11 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<defs>
-	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-2" y="-2" width="54" height="54">
-		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-	</filter>
-</defs>
-<mask maskUnits="userSpaceOnUse" x="-2" y="-2" width="54" height="54" id="b">
-	<g filter="url(#Adobe_OpacityMaskFilter)">
-		<path id="a" fill="#FFFFFF" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0
-			z"/>
-	</g>
-</mask>
-<g mask="url(#b)">
-	<path opacity="0" fill="#FCCD48" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4
-		C0,1.791,1.791,0,4,0z"/>
-	<g>
-		<path id="a_1_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.2" d="M4,0h42c2.209,0,4,1.791,4,4v42
-			c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0z"/>
-	</g>
-	<path fill="#FFFFFF" d="M19.86,12.016l3.579,11.059L15.084,38L10,29.297L19.86,12.016z M39.995,29.303l0.003,0.008l-0.006-0.002
-		l-4.944,8.605l-19.94,0.076l7.781-8.734l17.032,0.039L28.436,26.79L19.86,12l10.148,0.014l9.979,17.281H40L39.995,29.303z"/>
-</g>
+	 width="60px" height="60px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+<path fill="#F8F8F8" d="M20.441,46.222l-6.665-11.291l12.476-21.152l6.665,11.291L20.441,46.222z"/>
+<path fill="#F8F8F8" d="M20.441,46.222l6.665-11.291h24.952l-6.666,11.291H20.441z"/>
+<path fill="#F8F8F8" d="M39.581,13.779l12.477,21.152h-13.33L26.252,13.779H39.581"/>
+<path fill="#F8F8F8" d="M32.917,34.931h-5.811L29.997,30l-9.556,16.222L32.917,34.931z"/>
+<path fill="#F8F8F8" d="M38.728,34.931h13.328L35.834,30L38.728,34.931z"/>
+<path fill="#F8F8F8" d="M29.997,30.001l2.92-4.931l-6.665-11.291L29.997,30.001z"/>
 </svg>
