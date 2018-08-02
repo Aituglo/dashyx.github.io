@@ -43,6 +43,50 @@
       "filter": "other" 
     }
   ],
+  "filters_en":[
+    {
+      "name": "Social Network",
+      "fab": true,
+      "fa": "facebook",
+      "filter": "social"
+    },
+    {
+      "name": "Music",
+      "fab": false,
+      "fa": "music",
+      "filter": "music"
+    },
+    {
+      "name": "Mails",
+      "fab": false,
+      "fa": "envelope",
+      "filter": "mails" 
+    },
+    {
+      "name": "Work",
+      "fab": false,
+      "fa": "briefcase",
+      "filter": "work" 
+    },
+    {
+      "name": "Development",
+      "fab": false,
+      "fa": "code",
+      "filter": "dev" 
+    },
+    {
+      "name": "Storage",
+      "fab": false,
+      "fa": "hdd",
+      "filter": "storage" 
+    },
+    {
+      "name": "Utilities",
+      "fab": false,
+      "fa": "folder",
+      "filter": "other" 
+    }
+  ],
   "services":[
     {
       "isActive":false, 
