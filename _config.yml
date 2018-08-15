@@ -35,7 +35,7 @@ index:
 services:
   en: en/services
   fr: fr/services
-dashyx_version: "1.2.1"
+dashyx_version: "1.2.2"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dashyx.com" # the base hostname & protocol for your site
 cover: ""
