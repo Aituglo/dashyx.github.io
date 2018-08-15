@@ -1,9 +1,9 @@
 ---
 layout: default
 ref: services
-lang: fr
+lang: en
 ---
-{% include fr/header.html %}
+{% include en/header.html %}
         <!-- SERVICES -->
         <div id="services-link" class="page-section bg-g-b-grad pt-160-b-120-cont ">
             <div class="container">
@@ -12,7 +12,7 @@ lang: fr
               <div class="row">
                   <ul class="fes14-nav-tabs nav nav-tabs bootstrap-tabs port-filter list-inline pb-20">
                     <li><a href="#" class="fes14-nav-a filter active " data-filter="*"><div class="tab-nav-icon fa fa-plus font-white"></div><div class="tab-nav-text font-raleway font-white">Tout</div></a></li>
-                    {% for filter in site.data.services.filters_fr %}
+                    {% for filter in site.data.services.filters_en %}
                       <li><a href="#" class="fes14-nav-a filter" data-filter=".{{filter.filter}}"><div class="tab-nav-icon {% if filter.fab %}fab fa-{{filter.fa}}{% else %}fa fa-{{filter.fa}}{% endif %} font-white"></div><div class="tab-nav-text font-raleway font-white">{{ filter.name }}</div></a></li>
                     {% endfor %}
                   </ul>
@@ -31,4 +31,4 @@ lang: fr
               </div>
             </div>
           </div>
-{% include fr/footer.html %}
+{% include en/footer.html %}
