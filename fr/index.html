@@ -31,7 +31,7 @@ lang: fr
 
                             <!-- LAYER NR. 5 button -->
                             <div class="tp-caption rs-parallaxlevel-8" id="slide-699-layer-8" data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['130','130','80','80']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" 
-                            data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="1750" data-splitin="none" data-splitout="none"  data-responsive_offset="on" data-responsive="off" style="z-index: 25;text-transform:left;cursor:pointer;"><a class="hover-op-70 mr-25" href="https://github.com/Dashyx/dashyx/releases/download/1.2.0/Dashyx.Setup.1.2.0.exe" title="Windows"><img src="{{ site.baseurl }}/images/windows.png" alt="" width="158" height="43" data-ww="['158px','158px','130px','100px']" data-hh="['43px','43px','35px','27px']" data-no-retina></a><a class="hover-op-70" href="https://github.com/Dashyx/dashyx/releases/download/1.2.0/Dashyx-1.2.0.dmg" title="MacOS"><img src="{{ site.baseurl }}/images/mac.png" alt="" width="158" height="43" data-ww="['158px','158px','130px','100px']" data-hh="['43px','43px','35px','27px']" data-no-retina></a>
+                            data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="1750" data-splitin="none" data-splitout="none"  data-responsive_offset="on" data-responsive="off" style="z-index: 25;text-transform:left;cursor:pointer;"><a class="hover-op-70 mr-25" href="https://github.com/Dashyx/dashyx/releases/download/{{ site.dashyx_version }}/dashyx-setup-{{ site.dashyx_version }}.exe" title="Windows"><img src="{{ site.baseurl }}/images/windows.png" alt="" width="158" height="43" data-ww="['158px','158px','130px','100px']" data-hh="['43px','43px','35px','27px']" data-no-retina></a><a class="hover-op-70" href="https://github.com/Dashyx/dashyx/releases/download/{{ site.dashyx_version }}/dashyx-{{ site.dashyx_version }}.dmg" title="MacOS"><img src="{{ site.baseurl }}/images/mac.png" alt="" width="158" height="43" data-ww="['158px','158px','130px','100px']" data-hh="['43px','43px','35px','27px']" data-no-retina></a>
                             </div>   
 
                         </li>
@@ -56,7 +56,7 @@ lang: fr
         	<div class="container">
         		<div class="row">
         			<div class="col-md-6 text-center">
-                <img class="mt-40" src="{{ site.baseurl }}/images/app.gif" alt="img">
+                <img class="mt-40" src="{{ site.baseurl }}/images/logo.png" alt="img">
               </div>
         			<div class="col-md-6">
                 <div class="fes2-main-text-cont">
@@ -83,20 +83,13 @@ lang: fr
 									<div class="fes2-title-45 font-raleway font-light">
                     Une application pour toutes vos applications
 									</div>
-									<div class="fes2-text-cont">Vous pouvez ajouter autant d'applications que vous voulez et les utiliser simultanément. VOus pouvez aussi utiliser plusieurs comptes pour avoir plusieurs instances de vos applications</div>
+									<div class="fes2-text-cont">Vous pouvez ajouter autant d'applications que vous voulez et les utiliser simultanément. Vous pouvez aussi utiliser plusieurs comptes pour avoir plusieurs instances de vos applications</div>
                   <div class="mt-30">
                     <a class="button medium rounded gray-light" href="#download-link">Télécharger</a>
                   </div>
 								</div>
 							</div>
-              
-              <div class="col-md-6 pos-r-md-50pc wow fadeInLeft equal-height2 ads3-img-cont">
-							
-								<div class="row row-sm-fix absolute pos-v-center pos-l-0" >
-                  <img src="#" alt="img">
-                </div>
-				
-							</div>
+            
               
 						</div>
 					</div>
@@ -114,69 +107,17 @@ lang: fr
 									</div>
 									<div class="fes2-text-cont">Dashyx possède énormément de services et pouvez installer seulement ceux dont vous en avez le besoins</div>
                   <div class="mt-30">
-                    <a class="button medium rounded gray-light" href="#services-link">Voir tous les services</a>
+                    <a class="button medium rounded gray-light" href="/services">Voir tous les services</a>
                   </div>
 								</div>
 							</div>
               
-              <div class="col-md-6 wow fadeInRight equal-height3 ads3-img-cont">
-							
-								<div class="row row-sm-fix absolute pos-rb-0" >
-                  <img src="#" alt="img">
-                </div>
-							
-							</div>
               
 						</div>
 					</div>
         </div> 
 
-        
-        <!-- SERVICES -->
-        <div id="services-link" class="page-section bg-g-b-grad pt-160-b-120-cont">
-          <div class="container">
-              <div class="section-title2 font-raleway font-white font-light p-0 text-center pb-20">Services</div>
-            <!-- TABS NAV -->
-            <div class="row">
-                <ul class="fes14-nav-tabs nav nav-tabs bootstrap-tabs port-filter list-inline pb-20">
-                  <li><a href="#" class="fes14-nav-a filter active " data-filter="*"><div class="tab-nav-icon fa fa-plus font-white"></div><div class="tab-nav-text font-raleway font-white">Tout</div></a></li>
-                  {% for filter in site.data.services.filters_fr %}
-                    <li><a href="#" class="fes14-nav-a filter" data-filter=".{{filter.filter}}"><div class="tab-nav-icon {% if filter.fab %}fab fa-{{filter.fa}}{% else %}fa fa-{{filter.fa}}{% endif %} font-white"></div><div class="tab-nav-text font-raleway font-white">{{ filter.name }}</div></a></li>
-                  {% endfor %}
-                </ul>
-              
-            </div>
-            <div class="row">
-              <ul class="port-grid port-grid-5 clearfix masonry" id="items-grid">
-                {% for service in site.data.services.services %}
-          
-                  <li class="port-item mix {{service.filter}}">
-                      <p class="text-center"><button type="button" class="btn btn-default btn-circle btn-lg " style="color:white; background-color: {{service.color}};"><img src="/images/img-services/{{service.slug}}.svg"></button></p>
-                      <p style="color:black" class="text-center">{{service.name}}</p>
-                  </li>
-                {% endfor %}
-              </ul> 
-            </div>
-          </div>
-        </div>
-        
-        <!-- APPS CAROUSEL FONT RALEWAY -->
-				<div id="demo-link" class="page-section pt-160-b-120-cont">
-					<div class="container" >
-          
-            <!-- TITLE -->
-            <h2 class="section-title2 font-raleway font-light text-center p-0 mb-70">Gallerie</h2>
-            
-            <div class="owl-plugin owl-apps-prev owl-carousel owl-bg-white pb-20" >
-              <div class="item m-bot-0 text-center"><img src="{{ site.baseurl }}/images/dashyx.png" alt="client"></div>
-              <div class="item m-bot-0 text-center"><img src="{{ site.baseurl }}/images/dashyx.png" alt="client"></div>
-              <div class="item m-bot-0 text-center"><img src="{{ site.baseurl }}/images/dashyx.png" alt="client"></div>
-              <div class="item m-bot-0 text-center"><img src="{{ site.baseurl }}/images/dashyx.png" alt="client"></div>
-              <div class="item m-bot-0 text-center"><img src="{{ site.baseurl }}/images/dashyx.png" alt="client"></div>
-						</div>
-
-					</div>
-				</div>
+      
         
         
         
@@ -186,7 +127,7 @@ lang: fr
             <div class="video-ads-text-cont p-130-cont clearfix">
               <div class="section-title2 font-raleway font-white font-light p-0">Téléchargement</div>
               <div>
-              	<a class="hover-op-70 pb-0" href="https://github.com/Dashyx/dashyx/releases/download/1.2.0/Dashyx.Setup.1.2.0.exe" title="Windows"><img src="{{ site.baseurl }}/images/windows.png" alt="Windows" ></a><a class="hover-op-70 pb-0" href="https://github.com/Dashyx/dashyx/releases/download/1.2.0/Dashyx-1.2.0.dmg" title="MacOS"><img src="{{ site.baseurl }}/images/mac.png" alt="MACOS" ></a>
+              	<a class="hover-op-70 pb-0" href="https://github.com/Dashyx/dashyx/releases/download/{{ site.dashyx_version }}/dashyx-setup-{{ site.dashyx_version }}.exe" title="Windows"><img src="{{ site.baseurl }}/images/windows.png" alt="Windows" ></a><a class="hover-op-70 pb-0" href="https://github.com/Dashyx/dashyx/releases/download/{{ site.dashyx_version }}/dashyx-{{ site.dashyx_version }}.dmg" title="MacOS"><img src="{{ site.baseurl }}/images/mac.png" alt="MACOS" ></a>
               </div>
             </div>
 					</div>
@@ -257,6 +198,7 @@ lang: fr
 
             </div>
           </div>
+        </div>
 
           
         <!-- FOOTER 1 FONT WHITE only social links -->
@@ -273,7 +215,7 @@ lang: fr
   
                 <blockquote class="bq2-cont text-center ls-1 font-20 pb-0">
                     <h4>Dashyx a été developpé en France, par Cassim Khouani (Aituglo)</h4>
-                    <span class="test-quote-before"><a class="button medium rounded gray-light" target="_blank" href="https://aituglo.github.io">En savoir plus sur le developpeur</a></span>
+                    <span class="test-quote-before"><a class="button medium rounded gray-light" target="_blank" href="https://aituglo.com">En savoir plus sur le developpeur</a></span>
                   </blockquote>
                       <br><br>
             

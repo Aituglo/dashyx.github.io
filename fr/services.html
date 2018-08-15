@@ -1,0 +1,65 @@
+---
+layout: default
+ref: services
+lang: fr
+---
+
+        <!-- SERVICES -->
+        <div id="services-link" class="page-section bg-g-b-grad pt-160-b-120-cont ">
+            <div class="container">
+                <div class="section-title2 font-raleway font-white font-light p-0 text-center pb-20">Services</div>
+              <!-- TABS NAV -->
+              <div class="row">
+                  <ul class="fes14-nav-tabs nav nav-tabs bootstrap-tabs port-filter list-inline pb-20">
+                    <li><a href="#" class="fes14-nav-a filter active " data-filter="*"><div class="tab-nav-icon fa fa-plus font-white"></div><div class="tab-nav-text font-raleway font-white">Tout</div></a></li>
+                    {% for filter in site.data.services.filters_fr %}
+                      <li><a href="#" class="fes14-nav-a filter" data-filter=".{{filter.filter}}"><div class="tab-nav-icon {% if filter.fab %}fab fa-{{filter.fa}}{% else %}fa fa-{{filter.fa}}{% endif %} font-white"></div><div class="tab-nav-text font-raleway font-white">{{ filter.name }}</div></a></li>
+                    {% endfor %}
+                  </ul>
+                
+              </div>
+              <div class="row">
+                <ul class="port-grid port-grid-5 clearfix masonry" id="items-grid">
+                  {% for service in site.data.services.services %}
+            
+                    <li class="port-item mix {{service.filter}}">
+                        <p class="text-center"><button type="button" class="btn btn-default btn-circle btn-lg " style="color:white; background-color: {{service.color}};"><img src="/images/img-services/{{service.slug}}.svg"></button></p>
+                        <p style="color:black" class="text-center">{{service.name}}</p>
+                    </li>
+                  {% endfor %}
+                </ul> 
+              </div>
+            </div>
+          </div>
+
+        <!-- FOOTER 1 FONT WHITE only social links -->
+        <footer id="footer1" class="page-section text-center p-100-cont bg-g-b-grad">
+            <div class="container">
+  
+                <!-- Social Links -->
+                <div class="footer-soc-a">
+                    <a class="a-white" href="https://fb.me/GetDashyx" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="a-white" href="https://twitter.com/GetDashyx" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                  </div>
+                  <br>
+                  <br>
+  
+                <blockquote class="bq2-cont text-center ls-1 font-20 pb-0">
+                    <h4>Dashyx a été developpé en France, par Cassim Khouani (Aituglo)</h4>
+                    <span class="test-quote-before"><a class="button medium rounded gray-light" target="_blank" href="https://aituglo.com">En savoir plus sur le developpeur</a></span>
+                  </blockquote>
+                      <br><br>
+            
+              <div class="footer-soc-a">
+                <p>Theme by <a href="https://themeforest.net/">Themeforest</a></p>
+              </div>
+                      
+            </div>
+          </footer>
+          <!-- BACK TO TOP -->
+          <p id="back-top">
+            <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+          </p>
+          
+    </div><!-- End BG -->	
+</div><!-- End wrap -->	
