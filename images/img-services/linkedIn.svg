@@ -4,26 +4,20 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
 <defs>
-	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-2" y="-2" width="54" height="54">
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="10.666" y="10.716" width="29.016" height="28.964">
 		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
 	</filter>
 </defs>
-<mask maskUnits="userSpaceOnUse" x="-2" y="-2" width="54" height="54" id="b">
+<mask maskUnits="userSpaceOnUse" x="10.666" y="10.716" width="29.016" height="28.964" id="b">
 	<g filter="url(#Adobe_OpacityMaskFilter)">
 		<path id="a" fill="#FFFFFF" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0
 			z"/>
 	</g>
 </mask>
 <g mask="url(#b)">
-	<path opacity="0" fill="#0071A1" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4
-		C0,1.791,1.791,0,4,0z"/>
-	<g>
-		<path id="a_1_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.2" d="M4,0h42c2.209,0,4,1.791,4,4v42
-			c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0z"/>
-	</g>
 	<path fill="#FFFFFF" d="M14.151,10.716c1.922,0,3.484,1.562,3.484,3.488c0,1.923-1.563,3.486-3.484,3.486
 		c-1.927,0-3.485-1.563-3.485-3.486C10.666,12.278,12.224,10.716,14.151,10.716L14.151,10.716z M11.144,39.68V20.333h6.015V39.68
-		H11.144z M20.929,20.333h5.768v2.646h0.082c0.803-1.522,2.764-3.125,5.688-3.125c6.089,0,7.214,4.006,7.214,9.216V39.68h-6.011
-		v-9.408c0-2.244-0.041-5.129-3.125-5.129c-3.129,0-3.606,2.446-3.606,4.969v9.568h-6.01V20.333z"/>
+		H11.144z M20.929,20.333h5.768v2.646h0.082c0.803-1.522,2.764-3.125,5.688-3.125c6.09,0,7.215,4.006,7.215,9.216V39.68H33.67
+		v-9.408c0-2.244-0.041-5.128-3.125-5.128c-3.129,0-3.605,2.446-3.605,4.968v9.568h-6.01V20.333z"/>
 </g>
 </svg>

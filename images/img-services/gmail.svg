@@ -4,29 +4,23 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
 <defs>
-	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-2" y="-2" width="54" height="54">
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="10.029" y="14.012" width="29.863" height="22.676">
 		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
 	</filter>
 </defs>
-<mask maskUnits="userSpaceOnUse" x="-2" y="-2" width="54" height="54" id="b">
+<mask maskUnits="userSpaceOnUse" x="10.029" y="14.012" width="29.863" height="22.676" id="b">
 	<g filter="url(#Adobe_OpacityMaskFilter)">
 		<path id="a" fill="#FFFFFF" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0
 			z"/>
 	</g>
 </mask>
 <g mask="url(#b)">
-	<path opacity="0" fill="#D54B3D" d="M4,0h42c2.209,0,4,1.791,4,4v42c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4
-		C0,1.791,1.791,0,4,0z"/>
-	<g>
-		<path id="a_1_" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.2" d="M4,0h42c2.209,0,4,1.791,4,4v42
-			c0,2.209-1.791,4-4,4H4c-2.209,0-4-1.791-4-4V4C0,1.791,1.791,0,4,0z"/>
-	</g>
 	<g transform="translate(10 14)">
-		<path fill="#FFFFFF" fill-opacity="0.5" d="M27.988,22.688H1.893c-1.012,0-1.864-0.826-1.864-1.865V1.971
-			c0-1.012,0.825-1.864,1.864-1.864h26.095c1.012,0,1.864,0.826,1.864,1.864v18.852C29.853,21.861,29.027,22.688,27.988,22.688
+		<path fill="#FFFFFF" fill-opacity="0.5" d="M27.988,22.688H1.893c-1.012,0-1.864-0.826-1.864-1.864V1.971
+			c0-1.012,0.825-1.864,1.864-1.864h26.095c1.012,0,1.863,0.826,1.863,1.864v18.852C29.854,21.861,29.027,22.688,27.988,22.688
 			L27.988,22.688z"/>
 		<path fill="#FFFFFF" d="M0.043,1.721C0.034,1.79,0.029,1.865,0.029,1.944v18.878c0,1.039,0.825,1.865,1.864,1.865h1.864V5.614
-			l11.157,8.099l11.211-8.139v17.114h1.863c1.039,0,1.864-0.826,1.864-1.838V2.272c0.105-0.499,0.006-1.035-0.319-1.474
+			l11.157,8.099l11.211-8.139v17.113h1.863c1.039,0,1.863-0.826,1.863-1.838V2.272c0.105-0.499,0.006-1.035-0.318-1.474
 			c-0.613-0.852-1.785-1.039-2.609-0.426l-11.983,8.76L3.038,0.479c-0.852-0.613-2.05-0.426-2.663,0.399
 			C0.185,1.135,0.077,1.425,0.043,1.721z"/>
 	</g>
